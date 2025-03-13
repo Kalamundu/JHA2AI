@@ -1,0 +1,26 @@
+{
+    "api_key": "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",
+    "huggingface_api_key": "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",
+    "default_model": "rekaai/reka-flash-3:free",
+    "default_persona": "autonomous assistant",
+    "personas": {
+        "autonomous assistant": "You are an advanced AI assistant."
+    },
+    "working_directory": "./jha2_workspace",
+    "allowed_commands": [
+        "ls",
+        "pwd",
+        "cat",
+        "echo",
+        "mkdir",
+        "touch",
+        "rm",
+        "cp",
+        "mv",
+        "python",
+        "node",
+        "git",
+        "grep",
+        "find"
+    ]
+}
